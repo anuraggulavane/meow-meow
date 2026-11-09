@@ -1,0 +1,35 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Test and lint caches
+.pytest_cache/
+.ruff_cache/
+
+#Python environments
+.env/
+.env.*/
+.env.example/
+
+#Node modules 
+node_modules/
+
+#Next.js build outputs
+.next/
+out/
+
+data/private/
+
+#Supabase CLI files
+supabase/.temp/
+supabase/migrations/
+
+#OS and editor clutter
+.DS_Store
+.idea/
+.vscode/
